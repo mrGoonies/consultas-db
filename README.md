@@ -17,12 +17,17 @@ En este caso, este servidor está corriendo en local desde mi macbook, por ende 
 
 1. Levantar docker
 
-2. Correr el siguiente comando:
+2. Descargar imagen de Oracle DB
+```bash
+docker pull container-registry.oracle.com/database/express:latest
+```
+
+3. Correr el siguiente comando:
 ```bash
 docker run --name <nombre-contenedor> -p 1521:1521 -d --shm-size='8g' -e ORACLE_PWD=<contraseña> container-registry.oracle.com/database/express:latest
 ```
 
-3. Establecer conexión
+4. Establecer conexión
 ![login](./login-oracle.png)
 
 # Problemas
