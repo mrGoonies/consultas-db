@@ -24,3 +24,14 @@ docker run --name <nombre-contenedor> -p 1521:1521 -d --shm-size='8g' -e ORACLE_
 
 3. Establecer conexión
 ![login](./login-oracle.png)
+
+# Problemas
+
+1.	Crear un procedimiento de pl/sql que solicite el código de sucursal y muestre el nombre de la sucursal junto con el total de clientes, préstamos y cuentas corrientes que tiene.
+
+2.	Crear un procedimiento de pl/sql que solicite el código de la sucursal y muestre los nombres de los clientes de esa sucursal (deben tener cta cte o prestamos en esa sucursal).
+
+3.	Crear una función de pl/sql que solicite un rut de cliente y muestre la cantidad de productos bancarios que tiene.
+
+4.	Crear una función de pl/sql que solicite un rut de cliente y muestre el nombre del cliente y su monto total de sus préstamos. 
+
