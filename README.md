@@ -9,7 +9,7 @@ Dentro del repositorio encontrarás la información necesaria para levantar el s
 
 En este caso, este servidor está corriendo en local desde mi macbook, por ende considera lo siguiente:
 
-1. Tener instalado SQL Developer (cliente oficial de oracle).
+1. [Tener instalado SQL Developer (cliente oficial de oracle).](https://www.oracle.com/database/sqldeveloper/technologies/download/)
 
 2. Docker instalado.
 
